@@ -15,8 +15,18 @@ export class InicioPage implements OnInit {
     this.rmService.getCharacters().subscribe(
       (data) => {
         console.log(data);
+
       }
     )
+
+
+    this.rmService.getLocation().subscribe(
+      (data) => {
+        console.log(data);
+        
+      }
+    )
+
 
   }
 

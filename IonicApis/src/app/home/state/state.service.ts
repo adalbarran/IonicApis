@@ -24,5 +24,6 @@ export class StateService {
     return this.http.get('https://rickandmortyapi.com/api/episode')
   }
 
+  
 
 }
